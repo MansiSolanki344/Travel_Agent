@@ -27,19 +27,31 @@ This AI Agent helps users plan detailed, personalized trips based on their:
 
 ## 📁 Folder Structure
 Travel Planner AI Agent/
+
 ├── .env.example # Example .env file
+
 ├── main.py # Streamlit interface
+
 ├── requirements.txt
+
 ├── rag/
+
 │ ├── books/
+
 │ │ └── Essential India Travel Guide.pdf
+
 │ ├── clean/
+
 │ │ └── Essential India Travel Guide.txt
+
 │ ├── vector_store/
+
 │ │ ├── index.faiss
 │ │ └── index.pkl
 │ ├── load_and_embed.py # FAISS index creator
+
 │ ├── pdf_to_text.py # Extract text from PDF
+
 │ └── travel_vector_store/
 
 ---
