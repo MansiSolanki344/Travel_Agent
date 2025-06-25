@@ -1,0 +1,24 @@
+# Core libraries
+streamlit>=1.28.0
+langchain>=0.1.0
+langchain-groq>=0.1.0
+langgraph>=0.0.40
+langchain-community>=0.0.20
+
+# Vector Store and Embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Data Handling
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Logging (optional but helpful)
+loguru>=0.7.2
+
+# PDF parsing
+PyMuPDF>=1.23.0
+
+# Typing (if needed for TypedDict)
+typing-extensions>=4.0.0
